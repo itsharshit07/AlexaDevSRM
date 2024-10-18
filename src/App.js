@@ -9,6 +9,9 @@ function App() {
           <h1 className="text-2xl font-bold">Alexa Developers SRM</h1>
           <nav>
             <a href="#events" className="mx-4 hover:underline">Events</a>
+            <a href="#domains" className="mx-4 hover:underline">Domains</a>
+            <a href="#team" className="mx-4 hover:underline">Our Team</a>
+            <a href="#blog" className="mx-4 hover:underline">Blog</a>
             <a href="#contact" className="mx-4 hover:underline">Contact</a>
           </nav>
         </div>
@@ -35,22 +38,96 @@ function App() {
             {/* Event Card */}
             <div className="bg-white p-6 shadow-lg rounded-lg">
               <h4 className="text-xl font-bold mb-4">Event 1</h4>
-              <p className="text-gray-600">Hackathon!</p>
+              <p className="text-gray-600">Details about Event 1. It's going to be exciting!</p>
             </div>
 
             <div className="bg-white p-6 shadow-lg rounded-lg">
               <h4 className="text-xl font-bold mb-4">Event 2</h4>
-              <p className="text-gray-600">Workshop!</p>
+              <p className="text-gray-600">Details about Event 2. Don't miss it!</p>
             </div>
 
             <div className="bg-white p-6 shadow-lg rounded-lg">
               <h4 className="text-xl font-bold mb-4">Event 3</h4>
-              <p className="text-gray-600">Recruitments!</p>
+              <p className="text-gray-600">Details about Event 3. Join us for learning!</p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Domains Section */}
+      <section id="domains" className="py-20 bg-white">
+        <div className="container mx-auto text-center">
+          <h3 className="text-3xl font-bold mb-8">Our Domains</h3>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* Domain Card 1 */}
+            <div className="bg-gray-200 p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">Technical</h4>
+              <p className="text-gray-600">Explore cutting-edge technology and advancements.</p>
+            </div>
+
+            {/* Domain Card 2 */}
+            <div className="bg-gray-200 p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">Creatives</h4>
+              <p className="text-gray-600">Unleash your creativity and innovation.</p>
+            </div>
+
+            {/* Domain Card 3 */}
+            <div className="bg-gray-200 p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">Business</h4>
+              <p className="text-gray-600">Learn about business strategies and growth.</p>
+            </div>
+
+            {/* Domain Card 4 */}
+            <div className="bg-gray-200 p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">Collaborative</h4>
+              <p className="text-gray-600">Join our community and collaborate on projects.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Team Section */}
+      <section id="team" className="py-20 bg-gray-50">
+        <div className="container mx-auto text-center">
+          <h3 className="text-3xl font-bold mb-8">Meet Our Team</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Team Member Card */}
+            <div className="bg-white p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">Harshit Gola</h4>
+              <p className="text-gray-600">Role: Developer</p>
+            </div>
+
+            <div className="bg-white p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">John Williams</h4>
+              <p className="text-gray-600">Role: Designer</p>
+            </div>
+
+            <div className="bg-white p-6 shadow-lg rounded-lg">
+              <h4 className="text-xl font-bold mb-4">James </h4>
+              <p className="text-gray-600">Role: Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       {/* About Us Section */}
+       <section id="about" className="py-20 bg-white">
+        <div className="container mx-auto text-center">
+          <h3 className="text-3xl font-bold mb-8">About Us</h3>
+          <p className="text-gray-600 mb-4">
+            The Alexa Developers SRM community is dedicated to fostering innovation and growth 
+            in the field of voice technology. We provide a collaborative platform for developers, 
+            designers, and business enthusiasts to explore the capabilities of Alexa and build 
+            applications that enhance user experiences. 
+          </p>
+          <p className="text-gray-600">
+            Our mission is to empower developers through workshops, events, and resources that 
+            help them master voice development and unleash their creativity. Join us to 
+            connect with like-minded individuals and elevate your skills!
+          </p>
+        </div>
+      </section>
+      
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto text-center">
